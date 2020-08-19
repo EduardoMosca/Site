@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div#banner {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+div#banner {
+  color: #3D3D3D;
+}
+
+div#banner h1 {
+  font-size: 30px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+div#banner h3 {
+  font-size: 17.5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+div#banner button {
+  margin-top: 20px;
+  background-color:#E52E3B;
+  font-size: 18px;
+  color: #FFFFFF;
+  border: 0;
+  height: 34px;
+  width: 250px;
+  border-radius: 36px;
+  box-shadow: 0 2px 25px #E52E3B;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
