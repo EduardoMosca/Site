@@ -19,14 +19,22 @@ div#segue-trilha h1 {
 }
 
 div#texto {
+  margin-top: 25px;
   padding-right: 350px;
   padding-left: 350px;
+  display: flex;
+  align-items: center;
+}
+
+div#texto img {
+  margin-top: 100px;
 }
 
 div#texto-abaixo p {
   color: #FFFFFF;
   font-family: 'Montserrat';
   font-size: 20px;
+  margin-top: 25px;
 }
 
 div#texto-abaixo p:first-child {
