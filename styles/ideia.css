@@ -1,0 +1,45 @@
+div#banner4 {
+  width: 100%;
+  display: flex;
+  padding-top: 80px;
+  flex-direction: column;
+  background-color: #E52E3B;
+  align-items: center;
+}
+
+div#ideia {
+  display: flex;
+  flex-direction: row;
+}
+
+div#ideia p {
+  color: #FFFFFF;
+  font-size: 20px;
+  width: 555px;
+  height: 144px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  margin: 30px 0px;
+}
+
+div#ideia p:first-child {
+  height: 120px;
+}
+
+img#fotoide {
+  width: 520px;
+  height: 286.58px;
+}
+
+img#lampada {
+  width: 445px;
+  height: 416.91px;
+  margin-top: 220px;
+  margin-left: 100px;
+}
+
+@media (max-width: 1000px) {
+  img#lampada {
+    display: none;
+  }
+}

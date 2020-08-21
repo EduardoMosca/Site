@@ -1,5 +1,7 @@
 div#banner2 {
   width: 100%;
+  display: flex;
+  flex-direction: column;
   background-color: #E52E3B;
 }
 
@@ -19,10 +21,11 @@ div#segue-trilha h1 {
 }
 
 div#texto {
-  margin-top: 25px;
-  padding-right: 350px;
-  padding-left: 350px;
+  margin-top: 30px;
+  margin-right: 420px;
+  margin-left: 420px;
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
@@ -45,4 +48,53 @@ div#texto-abaixo p:first-child {
 div#bloco1 img {
   width: 445px;
   height: 481.67px;
+}
+
+div#bloco2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hr {
+  width: 110px;
+  height: 3px;
+  background: #FFFFFF;
+  margin: 10px 40px;
+  padding: 1px 30px;
+}
+
+div#bloco2 h3 {
+  color:#FFFFFF;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  font-size: 80px;
+  padding: 5px 0px;
+}
+
+div#bloco2 p {
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Montserrat';
+  padding-bottom: 50px;
+}
+
+div#bloco2 div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1000px) {
+  div#texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  div#bloco2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 }

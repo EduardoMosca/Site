@@ -1,5 +1,6 @@
 header#main-header {
   display: flex;
+  flex-direction: row;
   align-items: center;
   justify-content: space-between;
   height: 92.25px;
@@ -8,6 +9,10 @@ header#main-header {
   font-family: "Lato", sans-serif;
   font-size: 15px;
   font-weight: bold;
+}
+
+#ancoras a {
+  text-decoration: none;
 }
 
 header#main-header nav ul{
